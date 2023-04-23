@@ -57,3 +57,27 @@ avo@avo-Yoga-Slim-7-14IIL05:~/IHW2-OS/4$ ./main 4 b
 You should enter an integer from 3 to 8 as size of field
 avo@avo-Yoga-Slim-7-14IIL05:~/IHW2-OS/4$ 
 
+ПРЕРЫВАНИЕ ПРОГРАММЫ КЛАВИШАМИ С КЛАВИАТУРЫ
+эта часть так же нигде не меняется, поэтому продемонстрирую ее работу только здесь,
+далее это уже не имеет смысла
+
+пример с прерыванием программы:
+
+avo@avo-Yoga-Slim-7-14IIL05:~/IHW2-OS/4$ ./main 4 3
+field 1
+0 0 1 
+1 0 0 
+1 0 1 
+
+field2
+0 0 1 
+1 0 1 
+1 0 0 
+team 1 shot 1 0 (weapon 2)
+team 1 kill one of enemies
+team 2 shot 1 2 (weapon 4)
+team 1 shot 0 2 (weapon 4)
+team 1 kill one of enemies
+^C
+end of war. Draw
+
